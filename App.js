@@ -22,8 +22,6 @@ export default function App() {
 
   return (
     <View style={{ flex: 1, backgroundColor: '#000' }}>
-      {/* <StatusBar hidden /> */}
-
       <View style={StyleSheet.absoluteFillObject}>
         {data.map((image, index) => {
 
